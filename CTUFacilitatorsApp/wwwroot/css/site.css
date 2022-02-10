@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Roboto, sans-serif;
+    background-color: #d3d2d2;
+}
+
+.ctu-nav-color {
+    background-color: #810001;
+}
+
+.navbar {
+    display: block;
+}
+
+.col,
+.col-6 {
+    text-align: center;
+}
+
+.col {
+    margin: auto;
+}
+
+.form-group {
+    margin: 5px auto;;
+}
+
+.btn-manage-users a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar>.container {
+    display: block;
+}
